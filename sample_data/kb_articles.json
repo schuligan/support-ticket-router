@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Regenerating your Acme Cloud API key",
+    "keywords": ["api key", "regenerate", "rotate", "reset key", "credentials", "settings"],
+    "category": "how_to",
+    "body": "To regenerate your API key, go to Settings > Developer > API Keys in the Acme Cloud dashboard. Click 'Regenerate', confirm, and copy the new key immediately — it is shown only once. Update any integrations that used the old key, as it is revoked instantly."
+  },
+  {
+    "id": "kb-002",
+    "title": "Changing your notification email",
+    "keywords": ["notification email", "alerts", "change email", "account settings", "notifications"],
+    "category": "account",
+    "body": "Notification settings live under Settings > Notifications (not Account). Enter the new alert email address and click Save. A confirmation email is sent to the new address; the change takes effect once confirmed."
+  },
+  {
+    "id": "kb-003",
+    "title": "Resolving 401 errors on webhook integrations",
+    "keywords": ["webhook", "401", "unauthorized", "token", "integration", "signing secret"],
+    "category": "bug",
+    "body": "A 401 on a webhook almost always means the signing secret, not the API token, is wrong. Webhooks authenticate with a dedicated signing secret found under Settings > Integrations > Webhooks. Copy the signing secret (it differs from your API key) into your integration's configuration."
+  },
+  {
+    "id": "kb-004",
+    "title": "Understanding duplicate charges",
+    "keywords": ["double charge", "duplicate", "billing", "invoice", "refund"],
+    "category": "billing",
+    "body": "Duplicate charges can occur when a payment retry is misattributed. Our billing system flags identical order amounts within 24 hours. If you see two identical orders, a refund for the duplicate is processed automatically within 5 business days. For faster handling, contact billing with both order numbers."
+  }
+]

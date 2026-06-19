@@ -1,0 +1,38 @@
+[
+  {
+    "id": "email-1001",
+    "channel": "email",
+    "sender_name": "Alex Rivera",
+    "sender_email": "alex@example.com",
+    "subject": "How do I reset my API key?",
+    "body": "Hi, I rotated my password but I can't find where to regenerate my Acme Cloud API key. Can you point me to the right settings page? Thanks!",
+    "received_at": "2026-06-18T09:00:00+00:00"
+  },
+  {
+    "id": "email-1002",
+    "channel": "email",
+    "sender_name": "Jordan Lee",
+    "sender_email": "jordan@example.com",
+    "subject": "URGENT: Production is down — 503 errors everywhere",
+    "body": "Our entire Acme Cloud deployment is returning 503s as of 10 minutes ago. This is affecting all of our customers. We need help immediately.",
+    "received_at": "2026-06-18T09:05:00+00:00"
+  },
+  {
+    "id": "email-1003",
+    "channel": "email",
+    "sender_name": "Sam Patel",
+    "sender_email": "sam@example.com",
+    "subject": "Double charged on my invoice this month",
+    "body": "I was billed twice for my Acme Cloud Pro subscription on the June invoice. Order numbers 88123 and 88124 are identical. Please refund the duplicate.",
+    "received_at": "2026-06-18T09:10:00+00:00"
+  },
+  {
+    "id": "email-1004",
+    "channel": "email",
+    "sender_name": "Alex Rivera",
+    "sender_email": "alex@example.com",
+    "subject": "Feature idea: dark mode for the dashboard",
+    "body": "Would love a dark mode option in the Acme Cloud dashboard. Not urgent, just a nice-to-have for late-night ops work.",
+    "received_at": "2026-06-18T09:15:00+00:00"
+  }
+]

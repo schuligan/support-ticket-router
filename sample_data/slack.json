@@ -1,0 +1,20 @@
+[
+  {
+    "id": "slack-2001",
+    "channel": "slack",
+    "sender_name": "Jordan Lee",
+    "sender_email": "jordan@example.com",
+    "subject": "#support thread",
+    "body": "hey team, where do I change my notification email for Acme Cloud alerts? can't find it under account settings",
+    "received_at": "2026-06-18T09:20:00+00:00"
+  },
+  {
+    "id": "slack-2002",
+    "channel": "slack",
+    "sender_name": "Sam Patel",
+    "sender_email": "sam@example.com",
+    "subject": "#support thread",
+    "body": "the webhook integration keeps throwing a 401 even though my token looks correct. anyone seen this? pretty blocked here",
+    "received_at": "2026-06-18T09:25:00+00:00"
+  }
+]

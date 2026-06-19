@@ -228,3 +228,7 @@ This is a **portfolio demonstration**, not a production support desk. It is deli
 - Confidence thresholds and SLA windows are illustrative defaults.
 
 What it's meant to show: a clean agentic pipeline with confidence-gated auto-resolution, an honest human-handoff path, deterministic SLA logic with an injectable clock, an audit trail, and a real/mock split that keeps the whole thing CI-friendly and offline-first.
+
+## Origin
+
+This is a **clean-room, generic version** of tooling I build and use locally for real operational and process work. The internal originals stay private; this public version is sanitized — synthetic data only, no proprietary logic — and generalized so anyone (including me) can reuse it via [Claude Code](https://claude.com/claude-code). Built and maintained AI-assisted.
